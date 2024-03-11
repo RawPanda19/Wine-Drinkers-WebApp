@@ -2,8 +2,8 @@
 
 ## Contents
 
-- [Introduction to Svelte](#create-svelte)
 - [Git Commit types](#git-commit-types)
+- [Introduction to Svelte](#create-svelte)
 
 ## Git commit types
 
