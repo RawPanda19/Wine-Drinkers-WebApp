@@ -4,6 +4,7 @@
 
 - [Git Commit types](#git-commit-types)
 - [Introduction to Svelte](#create-svelte)
+- [Handy/Important links for development](#handy--important-links-for-development)
 
 ## Git commit types
 
@@ -42,6 +43,12 @@ npm run dev
 npm run dev -- --open
 ```
 
+> IF YOU CAN'T USE _NPM RUN DEV_ BECAUSE OF PERMISSION ERRORS USE THE FOLLOWING COMMANDS:
+>
+> Run the ```update``` in the [package.json](package.json) or use the command ```npm run update``` in the terminal
+>
+> You will need to rerun this everytime you make changes, since you are not in developing view but in build
+
 ### Building
 
 To create a production version of your app:
@@ -54,4 +61,15 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target
 > environment.
+
+## Handy & Important links for development
+
+Under here follows a list of links with stuff that are being used during development, for example colour palette(s) or
+components like buttons that someone else developed:
+
+- [Current default colour palette](https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb), see also the
+  file [tailwind.config.js](tailwind.config.js)
+  for which names are given to the colours in this palette
+
+
 
