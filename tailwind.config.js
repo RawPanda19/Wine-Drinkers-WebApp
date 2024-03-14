@@ -2,7 +2,14 @@
 export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
-        extend: {}
+        extend: {},
+        colors: {
+            'white': '#FEFCFB',
+            'lightblue': '#1282A2',
+            'blue': '#034078',
+            'blue-er': '#001F54',
+            'darkblue': '#0A1128'
+        }
     },
     plugins: []
 };
