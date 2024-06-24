@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+entity User {
+    *id : number <<generated>>
+    *username : text
+}
+
+entity Score {
+    *id : number <<generated>>
+    *game_type_id : number
+    *user_id : number
+    *score : number
+}
+
+entity GameType {
+    *id : number <<generated>>
+    *type : text
+}
+
+User ||--o{ Score
+Score }|--|| GameType
+
+@enduml
