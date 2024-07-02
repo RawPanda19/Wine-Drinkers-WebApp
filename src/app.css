@@ -24,4 +24,8 @@
         @apply text-lightblue;
         @apply italic;
     }
+
+    input {
+        @apply bg-bgInput;
+    }
 }

@@ -18,7 +18,8 @@ export default {
                 'darkblue': '#0A1128',
                 'player_red': '#FF333C',
                 'player_blue': '#1EA7E3',
-                'line': '#8B9AAE'
+                'line': '#8B9AAE',
+                'bgInput': '#CBC9C8'
             }
         },
     },

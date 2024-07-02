@@ -1,7 +1,7 @@
-<div class="flex flex-col justify-center align-center min-w-[35vw] max-w-[50vh]">
-    <h2>Dice games/trackers</h2>
+<div class="flex flex-col justify-center align-center">
+    <h1>Dice games/trackers</h1>
     <p>Under here you can find a list of games and/or trackers for throwing dices in real life</p>
     <ul>
-        <li><a href="tripledice/+page.svelte">3 dice tracker</a></li>
+        <li><a href="dices/threedices">3 dice tracker/game</a></li>
     </ul>
 </div>
