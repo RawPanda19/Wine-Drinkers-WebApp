@@ -3,15 +3,20 @@
 @tailwind utilities;
 
 @layer base {
-    h2 {
+    h1 {
+        @apply uppercase;
+        @apply text-[2rem];
+    }
+
+    h3 {
         @apply uppercase;
         @apply font-bold;
-        @apply size-[2rem];
+        @apply text-[1.5rem]
     }
 
     p {
-        @apply size-[1rem];
         @apply font-light;
+        @apply text-[1rem];
     }
 
     a {
