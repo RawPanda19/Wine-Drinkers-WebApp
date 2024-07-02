@@ -6,7 +6,7 @@ entity User {
     *username : text
 }
 
-entity Score {
+entity Scores {
     *id : number <<generated>>
     *game_type_id : number
     *user_id : number
@@ -18,7 +18,7 @@ entity GameType {
     *type : text
 }
 
-User ||--o{ Score
-Score }|--|| GameType
+User ||--o{ Scores : has
+Scores ||--|| GameType : belongs to
 
 @enduml

@@ -10,22 +10,27 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model users {
-  id         Int          @id @default(autoincrement())
-  username   String       @unique
-  highscores highscores[]
+model Users {
+  id       Int      @id @default(autoincrement())
+  username String   @unique
+  email    String   @unique
+  password String
+  scores   Scores[]
 }
 
-model highscores {
-  id         Int       @id @default(autoincrement())
-  gametype   gametypes @relation(fields: [gametypeID], references: [id])
-  gametypeID Int
-  user       users     @relation(fields: [userID], references: [id])
-  userID     Int
+model Scores {
+  id          Int       @id @default(autoincrement())
+  value       Int
+  date        DateTime
+  user        Users     @relation(fields: [user_id], references: [id])
+  user_id     Int
+  gametype    Gametypes @relation(fields: [gametype_id], references: [id])
+  gametype_id Int       @unique
 }
 
-model gametypes {
-  id         Int          @id @default(autoincrement())
-  name       String       @unique
-  highscores highscores[]
+model Gametypes {
+  id          Int     @id @default(autoincrement())
+  name        String  @unique
+  description String
+  score       Scores?
 }
