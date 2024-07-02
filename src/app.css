@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+        @apply items-center;
+        @apply gap-[3vh];
+        @apply pt-[5vh];
+    }
+
     h1 {
         @apply uppercase;
         @apply text-[2rem];
