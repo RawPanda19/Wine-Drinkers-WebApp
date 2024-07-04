@@ -19,7 +19,15 @@ export default {
                 'player_red': '#FF333C',
                 'player_blue': '#1EA7E3',
                 'line': '#8B9AAE',
-                'bgInput': '#EFEEEE'
+                'bgInput': '#EFEEEE',
+                // The colours below are what ChatGPT gave me after asking for a colour palette
+                'main_pink': '#FFB6C1',
+                'second_pink': '#E6A8B8',
+                'third_pink': '#FF007F',
+                'gray': '#808080',
+                'burgundy': '#800020',
+                'gold': '#FFD700',
+                'beige': '#F5F5DC'
             }
         },
     },
