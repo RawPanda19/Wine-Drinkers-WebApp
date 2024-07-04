@@ -13,6 +13,7 @@
     }
 
     h1 {
+        @apply italic;
         @apply uppercase;
         @apply text-[2rem];
     }
