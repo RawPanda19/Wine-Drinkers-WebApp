@@ -2,4 +2,7 @@
     <h1>The Wine Drinkers</h1>
 </div>
 
-<img src="/Group%20Image.jpg" alt="" height="480" width="480" class="flex flex-row justify-center items-center">
+<div class="sm:max-w-[30vw] sm:max-h-[30vh]
+        max-w-[50vw] ">
+    <img src="/Group%20Image.jpg" alt="">
+</div>
