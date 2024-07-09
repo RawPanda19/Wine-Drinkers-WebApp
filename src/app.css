@@ -8,7 +8,7 @@
         @apply flex-col;
         @apply justify-start;
         @apply items-center;
-        @apply gap-[3vh];
+        @apply gap-[4vh];
         @apply pt-[5vh];
     }
 

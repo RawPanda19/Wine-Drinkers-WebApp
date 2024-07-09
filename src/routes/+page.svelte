@@ -3,6 +3,6 @@
 </div>
 
 <div class="sm:max-w-[30vw] sm:max-h-[30vh]
-        max-w-[50vw] ">
+        max-w-[50vw]">
     <img src="/Group%20Image.jpg" alt="">
 </div>
