@@ -6,9 +6,9 @@
     body {
         @apply flex;
         @apply flex-col;
-        @apply justify-center;
+        @apply justify-start;
         @apply items-center;
-        @apply gap-[3vh];
+        @apply gap-[4vh];
         @apply pt-[5vh];
     }
 
@@ -31,7 +31,7 @@
 
     a {
         @apply underline;
-        @apply text-lightblue;
+        @apply text-blue;
         @apply italic;
     }
 

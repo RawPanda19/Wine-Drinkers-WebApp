@@ -1,10 +1,8 @@
-<div class="flex flex-row justify-center">
-    <h1>Personal Projects WebApp</h1>
-</div>
+<!--        TODO: Align the text in the middle, also after automatic wrapping-->
 
-<div id="tools" class="flex flex-col justify-start items-center">
+<div id="tools" class="flex flex-col justify-center items-center">
     <h3>Tools</h3>
-    <ul class="list-disc">
+    <ul class="list-disc max-w-[80vw] flex flex-col items-center">
         <li>This WebApp is made in SvelteKit. Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the
             documentation
         </li>
@@ -16,7 +14,11 @@
     </ul>
 </div>
 
-<div id="games" class="flex flex-col justify-start items-center">
+<div class="w-[80vw] flex flex-col justify-center items-center">
+    <h1>Personal Projects WebApp</h1>
+</div>
+
+<div id="games" class="flex flex-col justify-start items-center max-w-[80vw]">
     <h3>Games</h3>
     <p>This project also contains some game projects which are listed below</p>
     <br>
