@@ -1,5 +1,7 @@
-<h1>Welcome to the Tic Tac Toe games</h1>
-<p>On the pages listed below you can find the type of Tic Tac Toe games that have been implemented</p>
+<div class="max-w-[80vw] flex flex-col items-center gap-[2vh] ">
+    <h1>Welcome to the Tic Tac Toe games</h1>
+    <p>On the pages listed below you can find the type of Tic Tac Toe games that have been implemented</p>
+</div>
 
 
 <!--TODO: List the other pages-->
