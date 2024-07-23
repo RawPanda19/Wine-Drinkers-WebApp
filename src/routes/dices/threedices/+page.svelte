@@ -1,6 +1,6 @@
 <script lang="ts">
     import DiceInput from "../../../components/DiceInput.svelte";
-    import {Modal} from 'flowbite-svelte';
+    import ExplanationModal from "../../../components/modals/ExplanationModal.svelte";
 
     let showModal: boolean = false;
 </script>
@@ -19,12 +19,5 @@
         for the explanation
     </p>
 
-    <Modal title="Three-Dices game" bind:open={showModal} autoclose>
-        <p class="max-w-[80vw] text-wrap text-base leading-relaxed
-                sm:max-w-[60vw]">Testing the modal to see how it's formatted. Later the official explanation will have
-            to be added</p>
-        <svelte:fragment slot="footer">
-            <p>This part can be used for and I understand button or not, probably not really necessary</p>
-        </svelte:fragment>
-    </Modal>
+    <ExplanationModal showModal={showModal} modalType="threedices"/>
 </div>

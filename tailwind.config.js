@@ -8,7 +8,7 @@ export default {
             disc: 'disc',
             decimal: 'decimal',
             square: 'square',
-            roman: 'roman'
+            roman: 'upper-roman'
         },
         extend: {
             colors: {
@@ -25,6 +25,7 @@ export default {
                 'main_pink': '#FFB6C1',
                 'second_pink': '#E6A8B8',
                 'third_pink': '#FF007F',
+                'dark_pink': 'rgb(214, 31, 105)',
                 'gray': '#808080',
                 'burgundy': '#800020',
                 'gold': '#FFD700',
@@ -35,4 +36,4 @@ export default {
     plugins: [
         require('flowbite/plugin')
     ]
-}; 
+};
