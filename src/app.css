@@ -37,5 +37,8 @@
 
     input {
         @apply bg-bgInput;
+        @apply rounded-lg;
+        @apply pl-[1vw];
     }
+
 }
