@@ -1,8 +1,11 @@
-<div id="titleAndNav" class="flex flex-row justify-center">
-    <h1>The Wine Drinkers</h1>
-</div>
+<script>
+    import Header from "$lib/components/Header.svelte";
+    import GroupImage from "$lib/images/GroupImage.jpg";
+</script>
+
+<Header title="The Wine Drinkers"/>
 
 <div class="sm:max-w-[30vw] sm:max-h-[30vh]
         max-w-[50vw]">
-    <img src="/Group%20Image.jpg" alt="">
+    <img src={GroupImage} alt="">
 </div>

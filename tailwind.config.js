@@ -20,14 +20,10 @@ export default {
                 'player_blue': '#1EA7E3',
                 'line': '#8B9AAE',
                 'bgInput': '#EFEEEE',
-                // The colours below are what ChatGPT gave me after asking for a colour palette
-                'main_pink': '#FFB6C1',
-                'second_pink': '#E6A8B8',
-                'third_pink': '#FF007F',
-                'gray': '#808080',
-                'burgundy': '#800020',
-                'gold': '#FFD700',
-                'beige': '#F5F5DC'
+                // The colours below are what cooler.co suggested for the website and thus saved
+                'main': '#d741a7',
+                'header': '#3a1772',
+                'header_text': '#5398be'
             }
         },
     },

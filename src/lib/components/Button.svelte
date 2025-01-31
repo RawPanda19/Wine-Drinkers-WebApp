@@ -13,7 +13,7 @@
         position: relative;
         padding: 10px 20px;
         border-radius: 7px;
-        border: 1px solid rgb(61, 106, 255);
+        border: 1px solid rgb(249, 84, 218);
         font-size: 14px;
         text-transform: uppercase;
         font-weight: 600;
@@ -28,8 +28,8 @@
     }
 
     button:hover {
-        background: rgb(61, 106, 255);
-        box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+        background: rgb(249, 84, 218);
+        box-shadow: 0 0 30px 5px rgb(249, 84, 218, 0.815);
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;
